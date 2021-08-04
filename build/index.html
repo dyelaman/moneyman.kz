@@ -11,271 +11,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Homework 4.4</title>
+    <title>Moneyman.kz</title>
 </head>
 
 <body>
     <header>
-        <div class="top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 col-lg-2 col-sm-6 col-xs-9">
-                        <a href="#">
-                            <img src="../img/logo.png">
-                        </a>
+        <div class="container">
+            <div class="header__top">
+                <svg version="1.1" viewBox="0 0 367 66" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m45.714 0.15424c3.438 0 5.3812 2.3224 5.3812 5.5437v38.357c0 2.6969-1.9432 4.6447-4.7085 4.6447-2.6906 0-4.6338-1.9478-4.6338-4.6447v-28.393l-11.136 17.83c-1.42 2.2475-2.8401 2.9966-4.9328 2.9966-2.0179 0-3.5127-0.74915-4.9328-2.9966l-11.061-17.68v28.243c0 2.6969-1.9432 4.6447-4.7085 4.6447-2.6906 0-4.6338-1.9478-4.6338-4.6447v-37.682c0-3.8207 2.2422-6.218 6.2033-6.218 3.5127 0 5.3065 1.8729 7.4739 5.319l12.257 20.077 13.229-21.501c1.4948-2.3973 3.0643-3.8956 6.2033-3.8956zm12.952 30.341c0-10.413 8.296-18.879 18.61-18.879 10.389 0 18.685 8.4654 18.685 18.879 0 10.488-8.296 18.954-18.685 18.954-10.314 0-18.61-8.4654-18.61-18.954zm28.102 0c0-5.7685-3.9612-10.338-9.4171-10.338-5.5307 0-9.5666 4.5698-9.5666 10.338 0 5.7685 4.0359 10.413 9.5666 10.413 5.4559 0 9.4171-4.6447 9.4171-10.413zm35.523-18.879c8.296 0 13.677 5.7685 13.677 15.133v17.38c0 2.6969-1.8685 4.5698-4.5591 4.5698-2.6906 0-4.6338-1.8729-4.6338-4.5698v-16.032c0-4.8695-2.8401-7.941-7.2497-7.941-4.4843 0-7.2497 3.0715-7.2497 7.941v16.032c0 2.6969-1.8685 4.5698-4.5591 4.5698-2.6906 0-4.5591-1.8729-4.5591-4.5698v-27.194c0-2.6969 1.8685-4.5698 4.4843-4.5698 2.5411 0 4.2601 1.4983 4.5591 3.8207 2.2422-2.9217 5.7549-4.5698 10.09-4.5698zm56.524 15.882c0 3.2214-1.8685 5.319-5.3812 5.319h-21.226c0.89686 5.0193 4.7085 8.6153 10.164 8.6153 5.3812 0 7.3244-2.622 9.8655-2.622 2.1674 0 3.6622 1.3485 3.6622 3.521 0 4.0454-6.0538 7.1169-13.827 7.1169-11.136 0-19.208-8.4654-19.208-18.954 0-10.413 7.3991-18.879 18.46-18.879 11.211 0 17.489 8.1658 17.489 15.882zm-17.788-8.1658c-4.4843 0-7.6234 3.1464-8.6697 7.7163h17.265c-0.89686-5.0193-4.2601-7.7163-8.595-7.7163zm51.143-7.042c2.9896 0 5.157 2.2475 3.7369 6.1431l-12.93 34.611c-2.8401 7.7912-7.3244 11.087-13.303 11.087-4.9328 0-9.2676-2.3224-9.2676-5.9183 0-1.9478 1.42-3.8207 3.8864-3.8207 2.0179 0 3.438 1.1986 5.9044 1.1986 2.3169 0 3.7369-1.5732 5.2317-5.6936l0.29896-0.89898-13.752-29.966c-1.8685-4.0454 0.52317-6.7424 3.8864-6.7424 2.8401 0 3.8117 1.798 5.0075 4.4949l8.9686 20.752 7.5486-20.976c0.9716-2.8468 2.2422-4.2702 4.7833-4.2702z" class="header_logo_money"></path>
+                    <path d="m264.96 11.616c8.296 0 13.752 5.5437 13.752 15.133v17.38c0 2.6969-1.9432 4.5698-4.5591 4.5698-2.6906 0-4.6338-1.8729-4.6338-4.5698v-16.032c0-4.8695-2.6906-7.941-7.0254-7.941s-7.0254 3.0715-7.0254 7.941v16.032c0 2.6969-1.8685 4.5698-4.5591 4.5698-2.6906 0-4.6338-1.8729-4.6338-4.5698v-16.032c0-4.8695-2.6906-7.941-7.0254-7.941-4.3348 0-7.0254 3.0715-7.0254 7.941v16.032c0 2.6969-1.8685 4.5698-4.5591 4.5698s-4.5591-1.8729-4.5591-4.5698v-27.194c0-2.6969 1.8685-4.5698 4.4843-4.5698s4.4096 1.6481 4.6338 4.1203c2.1674-2.9966 5.6054-4.8695 9.8655-4.8695 5.2317 0 9.1929 2.3224 11.435 6.5176 2.0927-3.521 5.7549-6.5176 11.435-6.5176z" class="header_logo_man"></path>
+                    <path d="m318.34 12.365c2.6906 0 4.5591 1.8729 4.5591 4.5698v27.194c0 2.6969-1.8685 4.5698-4.5591 4.5698-2.6159 0-4.4843-1.7231-4.6338-4.1953-2.5411 3.0715-6.2033 4.9444-10.912 4.9444-9.4918 0-17.19-7.7163-17.19-18.954 0-10.788 7.2497-18.879 17.19-18.879 4.7085 0 8.3707 1.7231 10.912 4.7197 0.29896-2.3973 2.0927-3.9705 4.6338-3.9705zm-14.051 28.543c5.4559 0 9.4171-4.6447 9.4171-10.413 0-5.7685-3.9612-10.338-9.4171-10.338-5.5307 0-9.5666 4.5698-9.5666 10.338 0 5.7685 4.0359 10.413 9.5666 10.413z" class="header_logo_man"></path>
+                    <path d="m351.62 11.616c8.296 0 13.677 5.7685 13.677 15.133v17.38c0 2.6969-1.8685 4.5698-4.5591 4.5698s-4.6338-1.8729-4.6338-4.5698v-16.032c0-4.8695-2.8401-7.941-7.2497-7.941-4.4843 0-7.2497 3.0715-7.2497 7.941v16.032c0 2.6969-1.8685 4.5698-4.5591 4.5698-2.6906 0-4.5591-1.8729-4.5591-4.5698v-27.194c0-2.6969 1.8685-4.5698 4.4843-4.5698 2.5411 0 4.2601 1.4983 4.5591 3.8207 2.2422-2.9217 5.7549-4.5698 10.09-4.5698z" class="header_logo_man"></path>
+                </svg>
+                <img class="russiaflag" src="../img/russia.png">
+                <img class="kzflag" src="../img/kz.png">
+                <div class="header__phone">
+                    <div class="call">
+                        +7 701 006 35 00
                     </div>
-                    <div class="col-md-7 col-lg-7">
-                        <nav class="hidden-sm hidden-xs">
-                            <ul class="menu">
-                                <li class="menu__item">
-                                    <a href="index.html">
-                                        Главная
-                                    </a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="about.html">
-                                        О компании
-                                    </a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="#">
-                                        ВНЖ и ПМЖ в Болгарии
-                                    </a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="move.html">
-                                        Недвижимость и переезд
-                                    </a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="contacts.html">
-                                        Контакты
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-md-3 col-sm-6 hidden-xs">
-                        <div class="contacts">
-                            <div class="contacts__img">
-                                <a href="#">
-                                    <img src="../img/phone.png">
-                                </a>
-                            </div>
-                            <div class="contacts__phone">
-                                +7 (495) 12-321-345 <br>
-                                +7 (495) 12-321-345
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-1 col-xs-1 col-xs-offset-1 col-sm-offset-0 hidden-md hidden-lg">
-                        <a href="#">
-                            <div class="burger">
-                                <div class="block"></div>
-                                <div class="block"></div>
-                                <div class="block"></div>
-                            </div>
-                        </a>
+                    <div class="text">
+                        Ежедневно с 9:00 до 22:00
                     </div>
                 </div>
+                <button>Войти</button>
             </div>
-        </div>
-        <div class="first__screen">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Болгария</h1>
-                        <p>Ждет вас</p>
-                        <a href="#">
-                            <img src="../img/arrowheader.png">
-                        </a>
-                    </div>
-                </div>
+            <div class="header__items">
+                <a href="#">
+                    <div class="item">О нас</div>
+                </a>
+                <a href="#">
+                    <div class="item">Как получить</div>
+                </a>
+                <a href="#">
+                    <div class="item">Как погасить</div>
+                </a>
+                <a href="#">
+                    <div class="item">Бонусная программа</div>
+                </a>
+                <a href="#">
+                    <div class="item">Лето с Moneyman!</div>
+                </a>
+                <a href="#">
+                    <div class="item">Вопросы и ответы</div>
+                </a>
+                <a href="#">
+                    <div class="item">Пожаловаться</div>
+                </a>
+            </div>
+            <div class="header__tittles">
+                <h1><span>Микрокредиты</span> онлайн</h1>
+                <h2>Первый микрокредит без переплат</h2>
+                <button class="button">Получить деньги</button>
+                <div class="text">* подробности при подаче заявки</div>
+                <img class="img__girl" src="../img/womanlookingatphone.png">
             </div>
         </div>
     </header>
-    <section id="advantages">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Наши преимущества</h2>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="wrapper">
-                        <div class="image">
-                            <img src="../img/handshake.png">
-                        </div>
-                        <h3>Надежность</h3>
-                        <p>Мы всегда придем к вам на помощь в решении самых неоднозначных вопросов</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="wrapper">
-                        <div class="image">
-                            <img src="../img/blocknote.png">
-                        </div>
-                        <h3>Достоверность</h3>
-                        <p>Достоверность - главный принцип нашей работы. Мы знаем все тонкости переезда в Болгарию и оформления соответствующих документов</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="wrapper">
-                        <div class="image">
-                            <img src="../img/people.png">
-                        </div>
-                        <h3>Компетентность</h3>
-                        <p>Наши специалисты с большим опытом работы помогут разобраться во всех юридических тонкостях переезда
-                            на ПМЖ в Болгарию</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="moving">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="statement">
-                        <h2>Переезд в Болгарию</h2>
-                        <p class="opacity">«Если Вам не нравится то место, где вы находитесь - <br>
-                            смените его, Вы же не дерево» <br></p>
-                        <p class="default">Джим Рон</p>
-                    </div>
-                    <div class="block">
-                        <img class="upper" src="../img/lilarrow.png">
-                        <img class="bottom" src="../img/lilarrow.png">
-                        <p class="opacity">Пришло время и перед Вами стоит вопрос</p>
-                        <p class="default">Как переехать в Болгарию на ВНЖ или ПМЖ?</p>
-                    </div>
-                    <div class="answer">
-                        <h2>Мы знаем ответ</h2>
-                        <p>Подберем для Вас оптимальный вариант и предложим лучшие условия!</p>
-                    </div>
-                    <div class="button">
-                        <a href="#">Узнать больше</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="merits">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Недвижимость и транспортные услуги</h2>
-                    <div class="wrapper__first">
-                        <img class="picture__first" src="../img/picture1.png">
-                        <img class="picture__second" src="../img/picture2.png">
-                        <img class="picture__third" src="../img/picture3.png">
-                        <img class="circle" src="../img/circle.png">
-                        <h4>Мечтаете о доме на солнечном берегу?</h4>
-                        <p>
-                            Или хотите выгодно инвестировать в заграничную недвижимость? В любом случае - подходящий
-                            вариант уже ждет Вас! Большой выбор объектов жилой и коммерческой недвижимости и
-                            профессиональный сервис позволит провести сделку с удовольствием и получить нужный результат
-                        </p>
-                    </div>
-                    <div class="wrapper__second">
-                        <p>
-                            Если Ваши чемоданы уже собраны и Вы готовы к переезду, рады предложить Вам транспортные
-                            услуги по перевозке личный вещей в Болгарию. Для успешного размещения на новом месте
-                            жительства мы поможем перевести Ваши вещи в сохранности
-                        </p>
-                    </div>
-                    <div class="button">
-                        <a href="#">Узнать больше</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="reviews">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Отзывы наших клиентов</h2>
-                    <div class="wrapper">
-                        <img class="girl" src="../img/girl.png">
-                        <a href="#">
-                            <img class="left__arrow" src="../img/arrowleft.png">
-                        </a>
-                        <a href="#">
-                            <img class="right__arrow" src="../img/arrowright.png">
-                        </a>
-                        <div class="wrapper__tittle">
-                            <h4>Диана Апасова</h4>
-                            <a href="#">vk.com/apasova</a>
-                            <p>Москва → София</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                            in reprehenderit in</p>
-                    </div>
-                    <div class="image__circle">
-                        <img src="../img/circle1.png">
-                        <img src="../img/circle2.png">
-                        <img src="../img/circle3.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="questions">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Есть вопросы <br> по переезду в болгарию?</h2>
-                    <p>Мы проконсультируем <br> Вас бесплатно!</p>
-                    <a href="#">
-                        <img src="../img/footerarrow.png">
-                    </a>
-                    <form>
-                        <label>
-                            <input type="text" placeholder="Имя" class="input">
-                        </label>
-                        <label>
-                            <input type="email" placeholder="E-mail" class="input">
-                        </label>
-                        <label>
-                            <input type="tel" placeholder="Телефон" class="input">
-                        </label>
-                        <button type="submit" class="act">Заказать консультацию</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-xs-6">
-                    <a href="#">
-                        <img src="../img/logofooter.png">
-                    </a>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <p>2016 / Все права защищены</p>
-                </div>
-                <div class="col-md-3">
-                    <a class="politik" href="#">Политика конфиденциальности</a>
-                </div>
-                <div class="col-md-3">
-                    <div class="contacts">
-                        <div class="contacts__img">
-                            <a href="#">
-                                <img src="../img/phonefooter.png">
-                            </a>
-                        </div>
-                        <div class="contacts__phone">
-                            +7 (495) 12-321-345 <br>
-                            +7 (495) 12-321-345
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 </body>
 
 </html>
